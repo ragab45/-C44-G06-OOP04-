@@ -52,25 +52,38 @@
         #endregion
         //#endregion
         #region  V-2
-        public class Complex
-        {
-            public int Real { get; set; }
-            public int Img { get; set; }
+        //public class Complex
+        //{
+        //    public int Real { get; set; }
+        //    public int Img { get; set; }
 
-            public override string ToString()
-            {
-                return $"{Real} + {Img}i";
-            }
+        //    public override string ToString()
+        //    {
+        //        return $"{Real} + {Img}i";
+        //    }
 
-            public static Complex operator +(Complex Left, Complex Right)
-            {
-                return new Complex
-                {
-                    Real = Left.Real + Right.Real,
-                    Img = Left.Img + Right.Img,
-                };
-            }
-        }
+        //    public static Complex operator +(Complex Left, Complex Right)
+        //    {
+        //        return new Complex
+        //        {
+        //            Real = Left.Real + Right.Real,
+        //            Img = Left.Img + Right.Img,
+        //        };
+        //    }
+        //}
+        #endregion
+        #region V-3
+        //User user = new User()
+        //{
+        //    Id = 1,
+        //    FullName = "Ahmed Khaled",
+        //    Email = "ahmed@gmail.com",
+        //    Password = "password"
+        //};
+
+        //UserViewModel userViewModel = (UserViewModel)user;
+
+        //Console.WriteLine(userViewModel);
         #endregion
 
     }

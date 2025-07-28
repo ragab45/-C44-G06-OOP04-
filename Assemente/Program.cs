@@ -1,10 +1,9 @@
 ﻿namespace Assemente
 {
-    internal class Program
+    internal class Duration
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        #region Assemente
+
+        #endregion
     }
 }
