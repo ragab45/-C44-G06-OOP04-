@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System;
+
+namespace Demo
 {
     internal class Program
     {
@@ -85,7 +87,16 @@
 
         //Console.WriteLine(userViewModel);
         #endregion
-
+        #region V-4
+        static void Main(string[] args)
+        {
+            TypeB obj = new TypeB(5, 10);
+            obj.PrintMessage();   // هتطبع من TypeB (لأنها new)
+            obj.PrintData();      // هتطبع A و B (لأنها override)
+        }
     }
+    #endregion
+
+}
     
 }
